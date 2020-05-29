@@ -18,6 +18,6 @@ if try_install neovim; then
         --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
 
-if try_install python3-pip; then
+if try_install python3-setuptools python3-pip; then
    pip3 install ipython
 fi
